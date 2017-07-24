@@ -18,7 +18,7 @@ def bubble_sort(array)
   return array
 end
 
-def bubble_sort_by(array, &do_this)
+def bubble_sort_by(array)
   max_swaps = (array.length) - 1
   max_sweeps = max_swaps + 1
 
